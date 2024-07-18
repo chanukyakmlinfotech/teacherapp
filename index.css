@@ -1,0 +1,25 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.button-with-text {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Adjust the margin between buttons as needed */
+}
+
+.button-icon {
+  width: 20px; /* Adjust the width of the icons as needed */
+  height: 20px; /* Adjust the height of the icons as needed */
+  margin-right: 10px; /* Adjust the margin between icon and text as needed */
+}
+
+.button-text {
+  font-weight: bold;
+}

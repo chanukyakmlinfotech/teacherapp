@@ -1,0 +1,50 @@
+/* Styles for the scrollbar */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.student-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 140px;
+  padding: 1px;
+  width: 77%;
+  max-height: 68vh;
+  margin-right: 95px;
+}
+
+.student-cards-container > div {
+  width: 20%;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+.screenshot {
+  width: 100%;
+  height: auto;
+  max-height: 150px; /* Adjust as needed */
+  margin-top: 10px;
+}

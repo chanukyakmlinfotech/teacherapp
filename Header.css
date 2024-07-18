@@ -1,0 +1,59 @@
+.header {
+  position: absolute;
+  top: 114px; /* Adjust the distance from the top */
+  right: 198px; /* Position at the top right corner */
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly with space between */
+  align-items: center; /* Align items vertically in the center */
+  width: 107%; /* Set the width to 20% of the page */
+  background-color: #f5f6fa;
+}
+
+.button-with-text {
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px; /* Adjust the margin between dot buttons */
+}
+
+.blue {
+  background-color: #4285f4;
+}
+
+.red {
+  background-color: #ea4335;
+}
+
+.green {
+  background-color: #34a853;
+}
+
+.yellow {
+  background-color: #fbbc05;
+}
+
+.button-text {
+  font-size: 14px; /* Decrease the font size */
+  margin-right: 2px; /* Adjust the margin between the image and text */
+  font-weight: normal; /* Add bold font weight */
+  color: #808080;
+}
+
+.button-icon {
+  width: 13px; /* Decrease the width of the image */
+  height: 13px; /* Decrease the height of the image */
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}

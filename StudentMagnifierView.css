@@ -1,0 +1,120 @@
+.modal {
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  top: 20px;
+  position: relative; /* Make the modal the reference for absolute positioning */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.magnifier-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.magnifier-container h1 {
+  margin-bottom: 10px;
+}
+
+.magnifier-container p {
+  margin: 5px 0;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 10px; /* Adjust to move the buttons higher */
+  right: 30px;  /* Adjust as needed */
+  display: flex;
+  gap: 10px;
+}
+
+.magnifier-container .avatar {
+  position: absolute; /* Position the avatar absolutely */
+  top: -10px; /* Adjust the top position as needed */
+  left: 10px; /* Adjust the left position as needed */
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  border-radius: 50%; /* Make the avatar circular */
+}
+
+.name {
+  position: absolute; /* Position the name absolutely */
+  top: -20px; /* Adjust the top position as needed */
+  left: 40px; /* Adjust the left position as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  font-weight: normal; /* Add font weight as needed */
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative; /* Change to relative for easier individual positioning */
+}
+
+.icon-button img {
+  width: 20px; /* Adjust the size as needed */
+  height: 20px;
+}
+
+.close-button-top-right {
+  position: absolute; /* Position the button absolutely */
+  top: -8px; /* Adjust the top position to move it up */
+  right: -5px; /* Adjust the right position */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 60px; /* Adjust the right position as needed */
+}
+
+.block-button {
+  position: absolute;
+  top: 10px; /* Adjust the top position */
+  right: 40px; /* Adjust the right position */
+}
+
+.innerContainer {
+  margin-top: 20px; /* Adjust as needed */
+  padding: 10px;
+  border: 1px solid #ccc; /* Add a border to distinguish the container */
+  border-radius: 5px; /* Add some rounding to the container edges */
+  width: 100%; /* Adjust as needed to fit within the modal */
+  height: 65vh; /* Adjust height as needed */
+  text-align: center; /* Center align the text */
+}
+
+.screenshot {
+  max-width: 100%; /* Ensure the screenshot fits within the container */
+  max-height: 100%; /* Ensure the screenshot fits within the container */
+}
+
+.url-container {
+  margin-top: 10px; /* Adjust as needed */
+  padding: 10px;
+  border-top: 1px solid #ccc; /* Add a border to distinguish the container */
+  width: 100%; /* Adjust as needed to fit within the modal */
+  text-align: center; /* Center align the text */
+}
+
+.active-tab-container {
+  margin-top: 10px; /* Adjust as needed */
+  padding: 10px;
+  border-top: 1px solid #ccc; /* Add a border to distinguish the container */
+  width: 100%; /* Adjust as needed to fit within the modal */
+  text-align: center; /* Center align the text */
+}

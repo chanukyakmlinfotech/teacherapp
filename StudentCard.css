@@ -1,0 +1,97 @@
+/* StudentView.css */
+
+.student-card {
+  border: 1px  #ffffff;
+  border-radius:8px;
+  margin: 20px 10px;
+  padding: 20px;
+  background-color:#ffffff;
+  width: 100px;
+  height: 200px;
+  position: relative; /* Add position relative to the parent */
+}
+.online-icon,
+.offline-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 12px;
+  height: 12px;
+  z-index: 3;
+}
+
+.student-card .top-bar {
+  height: 10px;
+  width: 122.5%; /* Increase width to extend slightly beyond the student card */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: relative; /* Add relative positioning */
+  top: -20px; /* Move the top bar 10 pixels up */
+  right: 20px; /* Move the top bar 20 pixels to the right */
+  
+}
+
+.student-card .avatar {
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  border-radius: 50%; /* Apply circular border radius */
+  float: left;
+  margin-top: -24px;
+  margin-left: -14px; /* Move the avatar image 5 pixels to the left */
+  z-index: 1;
+  padding: 4px; /* Add padding */
+  position: absolute; /* Position the close button */
+}
+
+
+
+.student-card .close-button {
+  width: 10px; /* Adjust width of close button */
+  height: 10px; /* Adjust height of close button */
+  position: absolute; /* Position the close button */
+  top: 5px; /* Adjust top position of close button */
+  left: 5px; /* Adjust right position of close button */
+}
+
+
+.student-card .username {
+position: relative; /* Add relative positioning */
+top: -19px; /* Move the username 5 pixels up */
+right: -22px; /* Move the username 5 pixels to the right */
+color:#808080;
+}
+.student-card .check-icon {
+position: absolute; /* Position the check icon absolutely */
+top: 7px; /* Move the check icon 5 pixels down */
+right: -157px; /* Move the check icon 5 pixels to the right */
+}
+.student-card .close-button1 {
+position: absolute; /* Position the close button absolutely */
+top: 7px; /* Move the close button 5 pixels up */
+right: -175px; /* Adjust right position of close button */
+}
+
+
+.student-card .inner-container {
+  /* Add styling for the inner container */
+  padding: 65px; /* Example padding */
+  background-color: #f0f0f0; /* Example background color */
+  border-radius: 0px; /* Example border radius */
+  margin-top: 1px; /* Example margin top */
+  width: 49%; /* Set the width to 100% to fill the entire width of the student card */
+  margin-left: -11%; /* Move the inner container 5% to the right */
+}
+
+.student-card .action-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: -16px; /* Reduce the margin-top */
+  margin-right: -110px; /* Reduce the margin-right */
+}
+
+.student-card .action-icons img {
+  margin: 0 5px; /* Reduce the horizontal margin */
+  width: 60px;
+  height: 60px;
+}
